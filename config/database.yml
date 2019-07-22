@@ -84,5 +84,5 @@ test:
 production:
   <<: *default
   database: ChessApp_production
-  username: ChessApp
-  password: <%= ENV['CHESSAPP_DATABASE_PASSWORD'] %>
+  # username: ChessApp
+  # password: <%= ENV['CHESSAPP_DATABASE_PASSWORD'] %>
